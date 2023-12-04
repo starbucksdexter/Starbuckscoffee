@@ -1,0 +1,178 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: #777;
+  }
+
+ /* Sing in & join now */
+ .navbar-left{
+  width: 50px;
+}
+.navbar-center{
+  margin: auto;
+  max-width: 500px;
+  text-align: center;
+}
+.regis{
+  color:rgba(20, 107, 5)
+}/**/
+
+/*Para magka style yun HOME, MENU, REWARDS, SIGN IN at JOIN US*/
+  .topnav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+    }
+    .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    }
+    .topnav a:hover {
+    background-color: #ddd;
+    color: rgb(16, 94, 5);
+    }
+    .topnav a.active {
+    background-color: #006241;
+    color: white;
+    }
+ 
+/*Para sa picture*/
+  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgimg-8  {
+    display: flex; 
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  .bgimg-1 {
+    background-image: url("1.webp");
+    min-height: 100%;
+  }
+  
+  .bgimg-2 {
+    background-image: url("2.png");
+    min-height: 900px;
+  }
+  
+  .bgimg-3 {
+    background-image: url("3.png");
+    min-height: 1000px;
+  }
+
+  .bgimg-4 {
+    background-image: url("4.png");
+    min-height: 1000px;
+  }
+  
+  .bgimg-5 {
+    background-image: url("5.png");
+    min-height: 1000px;
+  }
+  
+
+  /*Para sa reward picuture*/
+.bgimg-6 {
+  background-image: url("https://images.pexels.com/photos/303324/pexels-photo-303324.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  min-height: 100%;
+}
+
+.bgimg-7 {
+  background-image: url("reward2.webp");
+  min-height: 400px;
+}
+
+.bgimg-8 {
+  background-image: url("reward3.png");
+  min-height: 400px;
+}
+
+/*.bgimg-9 {
+  background-image: url("rewards4.png");
+  min-height: 400px;
+}
+
+.bgimg-10 {
+  background-image: url("rewards5.png");
+  min-height: 400px;
+}*/
+
+  .caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+  }
+  
+  .caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+  }
+  
+  h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #111;
+  }
+  
+  /* Turn off parallax scrolling for tablets and phones */
+  @media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgimg-8{
+      background-attachment: scroll;
+    }
+  }
+
+  /*footer sa LogIn */
+  .footer{
+    background-color: rgb(246, 253, 246);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+  }
+
+ /*Para to sa Menu Style the main content area */
+ .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  max-width: 2000px;
+  margin: 0 auto;
+  padding: 5px;
+
+  }
+  .box {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 8px;
+  padding: 60px;
+  width: calc(33.33% - 20px);
+  text-align: center;
+
+  }
+  .image img {
+  max-width: 100%;
+}
+
+  .content, h3 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  display: flex;
+  }
+
+
+  
